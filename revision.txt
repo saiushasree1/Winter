@@ -1,1 +1,2 @@
 Question-1: Use double instead of float,double is more preferable
+Question-2: Prims Algorithm
