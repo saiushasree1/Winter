@@ -3,3 +3,5 @@ Question-2: Prims Algorithm
 Question-3: x^y=k then x^k=y and y^k=x;
 Question-4: Some times you don't need to solve the problem just observe constraints. :) https://www.codechef.com/problems/SPC2025Q5
 Question-5: Permutation always contains cycles. Method to traverse cycle int z=i;do{z=a[z];}while(z!=i); https://codeforces.com/problemset/problem/2008/D
+Question-6: Mean=a,Median=b problem codeforces(1200) b,b,3*a-2*b
+Question-7: Bowling pin codeeforces(1200) k*(k+1)<=2*(w+b) && max(w,k)>k sqrt of long long
