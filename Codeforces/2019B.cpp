@@ -1,11 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 void solve(){
-     int n,q;
+     long long n,q;
      cin>>n>>q;
-     int a[n];
+     long long a[n];
      unordered_map<long long,long long> m;
-     for(int i=0;i<n;i++){
+     for(long long i=0;i<n;i++){
        cin>>a[i];
       long long temp=(i+1)*(n-i)-1;
         m[temp]++;
@@ -16,7 +16,7 @@ void solve(){
         }
      }
      long long b[q];
-     for(int i=0;i<q;i++){
+     for(long long i=0;i<q;i++){
        cin>>b[i];
        cout<<m[b[i]]<<" ";
      }
